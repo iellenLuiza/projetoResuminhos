@@ -30,7 +30,7 @@ main {
     background-color: #b7eae7;
     width: 96%;
     margin: auto;
-    padding-left: 3vh;
+    padding-left: 2vh;
     margin-top: -5vh;
     padding-top: 5vh;
     -webkit-box-shadow: 11px -11px 0px 0px  #3a4754;
@@ -50,7 +50,7 @@ main {
 }
 
 .divResu:hover{
-    transform: scale(1.09);
+    transform: scale(1.02);
 }
 
 .divResu h2{
@@ -59,16 +59,12 @@ main {
     letter-spacing: 1pt;
 }
 
-.divResu h2:hover{
-    transform: scale(1);
-}
-
 .divResu h4{
     margin: 0;
     font-family: cursive;
 }
 
-.divInfResu{
+.divResu > .divInfResu{
     display: none;
 }
 
