@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 2em;
+    background-color: #556270;
+}
+
+/* cabeçalho */
+header {
+    background-color: #aacc65;
+    padding: 0.3rem;
+    display: flex;
+    width: min-content;
+    z-index: 1;
+    position: relative;
+}
+
+.bordaTit {
+    border: 4px dashed #FFF;
+}
+
+h1 {
+    margin: 1vh;
+    color: #FFF;
+    font-family: GloriaHallelujah;
+    letter-spacing: 1pc;
+}
+
+/* corpo */
+main {
+    background-color: #b7eae7;
+    width: 96%;
+    margin: auto;
+    padding-left: 3vh;
+    margin-top: -5vh;
+    padding-top: 5vh;
+    -webkit-box-shadow: 11px -11px 0px 0px  #3a4754;
+    -moz-box-shadow: 11px -11px 0px 0px  #3a4754;
+    box-shadow: 11px -11px 0px 0px  #3a4754;
+}
+
+.divResu{
+    display: inline-block;
+    margin: 1vw;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    background-color: #f56768;
+    padding: 0.7vw;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.divResu:hover{
+    transform: scale(1.09);
+}
+
+.divResu h2{
+    margin: 0;
+    font-family: LilitaOne;
+    letter-spacing: 1pt;
+}
+
+.divResu h2:hover{
+    transform: scale(1);
+}
+
+.divResu h4{
+    margin: 0;
+    font-family: cursive;
+}
+
+.divInfResu{
+    display: none;
+}
+
+/*rodapé*/
+footer {
+    background-color: #3c4955;
+    margin-top: 5vh;
+    border-radius: 7px;
+    padding-left: 2vh;
+}
+footer h4{
+    color: #FFF;
+    font-family: GloriaHallelujah;
+    letter-spacing: 1pc;
+    margin: 0;
+}
+
+footer h5{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    margin-top: 1vh;
+}
+
+/*fontes*/
+@font-face {
+    font-family:GloriaHallelujah;
+    src: url(assets/fontes/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+    font-family:LilitaOne;
+    src: url(assets/fontes/LilitaOne-Regular.ttf);
+}
