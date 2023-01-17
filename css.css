@@ -63,6 +63,10 @@ main {
     transform: scale(1);
 }
 
+.divResu:hover > .divInfResu{
+    display: block;
+}
+
 .divResu h4{
     margin: 0;
     font-family: cursive;
