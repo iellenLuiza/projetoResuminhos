@@ -118,11 +118,6 @@ main {
     letter-spacing: 1pt;
 }
 
-.divResu h4 {
-    margin: 0;
-    font-family: cursive;
-}
-
 .divResu>.divInfResu {
     display: none;
 }
@@ -204,4 +199,31 @@ footer h5 {
 @font-face {
     font-family: LilitaOne;
     src: url(assets/fontes/LilitaOne-Regular.ttf);
+}
+
+/*Resuminhos*/
+.divFlex1{
+    display: flex;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1vw;
+    min-width: 50px;
+    max-width: 500px;
+    margin-right: auto;
+    color: #90B1DB;
+    font-family: arial;
+}
+
+.divFlex0{
+    display: flex;
+}
+
+.divFlex0 p{
+    margin-left:3px;
+    font-family: arial;
+}
+
+figcaption{
+    color: #808080;
+    font-size: 1.5vh;
 }
