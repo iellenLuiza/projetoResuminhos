@@ -22,7 +22,7 @@ header {
     border: 4px dashed #FFF;
 }
 
-h1 {
+header h1 {
     margin: 1vh;
     color: #FFF;
     font-family: GloriaHallelujah;
@@ -86,7 +86,7 @@ h1 {
 /* resumos */
 main {
     background-color: #b7eae7;
-    width: 94%;
+    width: 94vw;
     margin: auto;
     padding-left: 2vh;
     margin-top: -8vh;
@@ -127,6 +127,7 @@ main {
     display: none;
 }
 
+
 .divResu button {
     border: none;
     background: none;
@@ -135,6 +136,39 @@ main {
     color: #FFF;
     cursor: pointer;
 }
+
+/*quando largura da tela for menor que 425px*/
+
+@media(max-width: 500px){
+    main {
+    width:98vw
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+
+    header {
+        padding: 0.2rem;
+        width: min-content;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bordaTit {
+        border: 4px dashed #FFF;
+    }
+    
+    header h1 {
+        margin: 0.1vw;
+        color: #FFF;
+        font-family: GloriaHallelujah;
+        margin-left: 0.5pc;
+        margin-right: auto;
+        letter-spacing: 0.5pc;
+    }
+
+   }
 
 /*rodapé*/
 footer {
