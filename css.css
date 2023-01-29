@@ -6,6 +6,10 @@ body {
     min-height: 100vh;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* cabeçalho */
 header {
     background-color: #aacc65;
@@ -120,6 +124,8 @@ main {
 
 .divResu>.divInfResu {
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -163,7 +169,20 @@ main {
         letter-spacing: 0.5pc;
     }
 
-   }
+    .divFlex1{
+        flex-wrap: wrap;
+    }
+
+    .divFlex1 figure{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .divFlex0{
+        flex-wrap: wrap;
+    }
+
+}
 
 /*rodapé*/
 footer {
@@ -219,11 +238,25 @@ footer h5 {
 }
 
 .divFlex0 p{
-    margin-left:3px;
-    font-family: arial;
+    margin-left:5px;
+}
+
+.divFlex1 figcaption{
+    color: #808080;
 }
 
 figcaption{
-    color: #808080;
     font-size: 1.5vh;
+}
+
+figure{
+    text-align: center;
+}
+
+table, th,tr,td{
+   border: 1px solid; 
+   border-collapse: collapse;
+   padding: 1px;
+   margin-left: auto;
+   margin-right: auto;
 }
