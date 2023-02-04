@@ -113,7 +113,7 @@ main {
 }
 
 .divResu:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .divResu h2 {
@@ -127,7 +127,6 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-
 
 .divResu button {
     border: none;
@@ -223,6 +222,18 @@ footer h5 {
 /*Resuminhos*/
 .divFlex1{
     display: flex;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1vw;
+    min-width: 50px;
+    max-width: 500px;
+    margin-right: auto;
+    color: #90B1DB;
+    font-family: arial;
+}
+
+.divFlex2{
+    display: block;
     background-color: #FFF;
     border-radius: 20px;
     padding: 1vw;
